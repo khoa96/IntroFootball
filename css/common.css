@@ -51,9 +51,6 @@ body {
   color: #1A202C;
 }
 
-img {
-  max-width: 100%;
-}
 
 a,
 button {
@@ -142,6 +139,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, hr {
   margin: 0 auto;
   min-width: 1200px;
   max-width: 1200px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 
 
